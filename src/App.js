@@ -4,14 +4,16 @@ import Sidebar from "./Sidebar";
 import Chat from "./Chat";
 import Pusher from "pusher-js";
 import axios from "./axios.js";
+import MessageData from "./messageData";
 
 function App() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    axios.get("/messages/sync").then((response) => {
-      setMessages(response.data);
-    });
+    // axios.get("/messages/sync").then((response) => {
+    //   setMessages(response.data);
+    // });
+    setMessages(MessageData);
   }, []);
 
   // Executed once, listening to Pusher that's connected to MongoDB

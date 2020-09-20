@@ -31,8 +31,8 @@ function Chat({ messages }) {
       <div className="chat__header">
         <Avatar />
         <div className="chat__headerInfo">
-          <h3>#FamilyISAS</h3>
-          <p>Isyraf, Shima, Faqih, Hayyin</p>
+          <h3>#RoadToReactSpecialist</h3>
+          <p>Isyraf Zakil</p>
         </div>
 
         <div className="chat__headerRight">
