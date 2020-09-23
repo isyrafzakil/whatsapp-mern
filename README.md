@@ -1,4 +1,4 @@
-# Amazon Clone
+# WhatsApp Clone
 
 React focused project.
 
